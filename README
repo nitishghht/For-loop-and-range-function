@@ -8,3 +8,10 @@ if number%i)==0:
 break
 else:
 print(number)
+
+#Understand how *ARGS and **KWARGS work in PYTHON FUNCTIONS
+def myFun(arg1, *argv):
+print("First Name :", arg1)
+for arg in argv:
+print("last Name *argv :", arg) 
+myFun('Nitish', 'Rajbhar' )
